@@ -1,8 +1,9 @@
-# OverWatch2Randomizer
+# **OverWatch2Randomizer**
 OverWatch 2 Custom Match Stats Randomizer 
 Written with help of OpenAI's ChatGTP
 
-##Instructions 
+Code is poorly writen I had an idea and made code that works not looks pretty
+## Instructions 
 
 Run the overwatch Overwatch2 Randomizer1.0.0.py
 It will spit out an "Randomized.txt."
