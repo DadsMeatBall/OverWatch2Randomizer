@@ -1,0 +1,802 @@
+settings
+{
+	modes
+	{
+			disabled Control
+		{
+			Limit Roles: 1 Tank 2 Offense 2 Support
+		}
+
+		disabled Escort
+		{
+			Limit Roles: 1 Tank 2 Offense 2 Support
+		}
+
+		disabled Hybrid
+		{
+			Limit Roles: 1 Tank 2 Offense 2 Support
+		}
+
+		disabled Push
+		{
+			Limit Roles: 1 Tank 2 Offense 2 Support
+		}
+
+		Skirmish
+	}
+
+	heroes
+	{
+		General
+		{
+			Ana
+			{
+				Ammunition Clip Size Scalar: *%
+				Biotic Grenade Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Sleep Dart Cooldown Time: @%
+				Ultimate Generation - Combat Nano Boost: @%
+				Ultimate Generation - Passive Nano Boost: @%
+				Ultimate Generation Nano Boost: &%
+			}
+
+			Ashe
+			{
+				Ammunition Clip Size Scalar: *%
+				Coach Gun Cooldown Time: @%
+				Coach Gun Knockback Scalar Enemy: #%
+				Coach Gun Knockback Scalar Self: #%
+				Damage Dealt: &%
+				Damage Received: &%
+				Dynamite Cooldown Time: @%
+				Dynamite Fuse Time Scalar: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat B.O.B.: @%
+				Ultimate Generation - Passive B.O.B.: @%
+				Ultimate Generation B.O.B.: &%
+			}
+
+			Baptiste
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Immortality Field Cooldown Time: @%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Regenerative Burst Cooldown Time: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Amplification Matrix: @%
+				Ultimate Generation - Passive Amplification Matrix: @%
+				Ultimate Generation Amplification Matrix: &%
+			}
+
+			Bastion
+			{
+				A-36 Tactical Grenade Maximum Time: *%
+				A-36 Tactical Grenade Recharge Rate: @%
+				Ammunition Clip Size Scalar: *%
+				Configuration: Tank Weapon Knockback Scalar: ?%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Reconfigure Cooldown Time: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Configuration: Artillery: @%
+				Ultimate Generation - Passive Configuration: Artillery: @%
+				Ultimate Generation Configuration: Artillery: &%
+			}
+
+			Brigitte
+			{
+				Barrier Shield Cooldown Time: @%
+				Barrier Shield Recharge Rate: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Repair Pack Cooldown Time: @%
+				Shield Bash Cooldown Time: @%
+				Shield Bash Knockback Scalar: |%
+				Ultimate Generation - Combat Rally: @%
+				Ultimate Generation - Passive Rally: @%
+				Ultimate Generation Rally: &%
+				Whip Shot Cooldown Time: @%
+				Whip Shot Knockback Scalar: |%
+			}
+
+			Cassidy
+			{
+				Ammunition Clip Size Scalar: *%
+				Combat Roll Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Magnetic Grenade Cooldown Time: @%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Ultimate Generation - Combat Deadeye: @%
+				Ultimate Generation - Passive Deadeye: @%
+				Ultimate Generation Deadeye: &%
+			}
+
+			D.Va
+			{
+				Boosters Cooldown Time: @%
+				Boosters Knockback Scalar: ?%
+				Call Mech Knockback Scalar: ?%
+				Damage Dealt: &%
+				Damage Received: &%
+				Defense Matrix Maximum Time: *%
+				Defense Matrix Recharge Rate: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Micro Missiles Cooldown Time: @%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Self Destruct Knockback Scalar: +%
+				Ultimate Generation - Combat Self-Destruct: @%
+				Ultimate Generation - Passive Self-Destruct: @%
+				Ultimate Generation Self-Destruct: &%
+			}
+
+			Doomfist
+			{
+				Ammunition Clip Size Scalar: *%
+				Ammunition Regeneration Time Scalar: ~%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Meteor Strike Knockback Scalar: #%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Power Block Charge Rate: &%
+				Power Block Cooldown Time: @%
+				Projectile Speed: @%
+				Rocket Punch Cooldown Time: @%
+				Rocket Punch Knockback Scalar: #%
+				Seismic Slam Cooldown Time: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Meteor Strike: @%
+				Ultimate Generation - Passive Meteor Strike: @%
+				Ultimate Generation Meteor Strike: &%
+			}
+
+			Echo
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Flight Cooldown Time: @%
+				Focusing Beam Cooldown Time: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Sticky Bombs Cooldown Time: @%
+				Ultimate Generation - Combat Duplicate: @%
+				Ultimate Generation - Passive Duplicate: @%
+				Ultimate Generation Duplicate: &%
+			}
+
+			Genji
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Deflect Cooldown Time: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Swift Strike Cooldown Time: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Dragonblade: @%
+				Ultimate Generation - Passive Dragonblade: @%
+				Ultimate Generation Dragonblade: &%
+			}
+
+			Hanzo
+			{
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Lunge Cooldown Time: @%
+				Lunge Distance Scalar: !%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Sonic Arrow Cooldown Time: @%
+				Storm Arrows Cooldown Time: @%
+				Storm Arrows Quantity: =
+				Ultimate Generation - Combat Dragonstrike: @%
+				Ultimate Generation - Passive Dragonstrike: @%
+				Ultimate Generation Dragonstrike: &%
+			}
+
+			Junker Queen
+			{
+				Ammunition Clip Size Scalar: *%
+				Carnage Cooldown Time: @%
+				Commanding Shout Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jagged Blade Cooldown Time: @%
+				Jagged Blade Delay Before Automatic Recall: ^%
+				Jagged Blade Knockback Scalar: ?%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Generation - Combat Rampage: @%
+				Ultimate Generation - Passive Rampage: @%
+				Ultimate Generation Rampage: &%
+			}
+
+			Junkrat
+			{
+				Ammunition Clip Size Scalar: *%
+				Concussion Mine Cooldown Time: @%
+				Concussion Mine Knockback Scalar: +%
+				Damage Dealt: &%
+				Damage Received: &%
+				Frag Launcher Knockback Scalar: ?%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Steel Trap Cooldown Time: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat RIP-Tire: @%
+				Ultimate Generation - Passive RIP-Tire: @%
+				Ultimate Generation RIP-Tire: &%
+			}
+
+			Kiriko
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Protection Suzu Cooldown Time: @%
+				Swift Step Cooldown Time: @%
+				Swift Step Distance Scalar: |%
+				Ultimate Generation - Combat Kitsune Rush: @%
+				Ultimate Generation - Passive Kitsune Rush: @%
+				Ultimate Generation Kitsune Rush: &%
+			}
+
+			Lúcio
+			{
+				Ammunition Clip Size Scalar: *%
+				Amp It Up Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Soundwave Cooldown Time: @%
+				Soundwave Knockback Scalar: #%
+				Ultimate Generation - Combat Sound Barrier: @%
+				Ultimate Generation - Passive Sound Barrier: @%
+				Ultimate Generation Sound Barrier: &%
+			}
+
+			Lifeweaver
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Life Grip and Healing Blossom Range: >%
+				Life Grip Cooldown Time: @%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Petal Platform Cooldown Time: @%
+				Petal Platform Health: *%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Rejuvenating Dash Healing: @%
+				Thorn Volley Cooldown Time: @%
+				Tree of Life Health: <%
+				Ultimate Generation - Combat Tree of Life: @%
+				Ultimate Generation Tree of Life: &%
+			}
+			Mei
+			{
+				Ammunition Clip Size Scalar: *%
+				Blizzard Freeze Minimum: _%
+				Blizzard Freeze Rate Scalar: @%
+				Cryo-Freeze Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Ice Wall Cooldown Time: @%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Generation - Combat Blizzard: @%
+				Ultimate Generation - Passive Blizzard: @%
+				Ultimate Generation Blizzard: &%
+				Weapon Freeze Duration Scalar: *%
+				Weapon Freeze Minimum: _%
+				Weapon Freeze Rate Scalar: @%
+			}
+
+			Mercy
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Guardian Angel Cooldown Time: @%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Resurrect Cooldown Time: @%
+				Ultimate Generation - Combat Valkyrie: @%
+				Ultimate Generation - Passive Valkyrie: @%
+				Ultimate Generation Valkyrie: &%
+			}
+
+			Moira
+			{
+				Biotic Energy Maximum: *%
+				Biotic Energy Recharge Rate: @%
+				Biotic Orb Cooldown Time: @%
+				Biotic Orb Max Damage Scalar: &%
+				Biotic Orb Max Healing Scalar: &%
+				Damage Dealt: &%
+				Damage Received: &%
+				Fade Cooldown Time: @%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Quick Melee: Off
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Coalescence: @%
+				Ultimate Generation - Passive Coalescence: @%
+				Ultimate Generation Coalescence: &%
+			}
+
+			Orisa
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Energy Javelin Cooldown Time: @%
+				Fortify Cooldown Time: @%
+				Healing Received: &%
+				Health: &%
+				Javelin Spin Cooldown Time: @%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Generation - Combat Terra Surge: @%
+				Ultimate Generation - Passive Terra Surge: @%
+				Ultimate Generation Terra Surge: &%
+			}
+
+			Pharah
+			{
+				Ammunition Clip Size Scalar: *%
+				Concussive Blast Cooldown Time: @%
+				Concussive Blast Knockback Scalar: |%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Hover Jets Maximum Time: '%
+				Hover Jets Recharge Rate: @%
+				Hover Jets Vertical Speed Scalar: |%
+				Jump Jet Acceleration Scalar: |%
+				Jump Jet Cooldown Time: @%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Rocket Launcher Knockback Scalar: $%
+				Ultimate Generation - Combat Barrage: @%
+				Ultimate Generation - Passive Barrage: @%
+				Ultimate Generation Barrage: &%
+			}
+
+			Ramattra
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Nemesis Form Cooldown Time: @%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ravenous Vortex Cooldown Time: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Annihilation: @%
+				Ultimate Generation - Passive Annihilation: @%
+				Ultimate Generation Annihilation: &%
+				Void Barrier Omnic Form Cooldown Time: @%
+			}
+
+			Reaper
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Shadow Step Cooldown Time: @%
+				Ultimate Generation - Combat Death Blossom: @%
+				Ultimate Generation - Passive Death Blossom: @%
+				Ultimate Generation Death Blossom: &%
+				Wraith Form Cooldown Time: @%
+			}
+
+			Reinhardt
+			{
+				Barrier Field Cooldown Time: @%
+				Barrier Field Recharge Rate: @%
+				Charge Cooldown Time: @%
+				Charge Knockback Scalar: #%
+				Damage Dealt: &%
+				Damage Received: &%
+				Fire Strike Cooldown Time: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Rocket Hammer Knockback Scalar: ?%
+				Ultimate Generation - Combat Earthshatter: @%
+				Ultimate Generation - Passive Earthshatter: @%
+				Ultimate Generation Earthshatter: &%
+			}
+
+			Roadhog
+			{
+				Ammunition Clip Size Scalar: *%
+				Chain Hook Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Take a Breather Cooldown Time: @%
+				Ultimate Generation - Combat Whole Hog: @%
+				Ultimate Generation - Passive Whole Hog: @%
+				Ultimate Generation Whole Hog: &%
+				Whole Hog Knockback Scalar: #%
+			}
+
+			Sigma
+			{
+				Accretion Cooldown Time: @%
+				Accretion Knockback Scalar: #%
+				Damage Dealt: &%
+				Damage Received: &%
+				Experimental Barrier Cooldown Time: @%
+				Experimental Barrier Recharge Rate: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Kinetic Grasp Cooldown Time: @%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Generation - Combat Gravitic Flux: @%
+				Ultimate Generation - Passive Gravitic Flux: @%
+				Ultimate Generation Gravitic Flux: &%
+			}
+
+			Sojourn
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Disruptor Shot Cooldown Time: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Power Slide Cooldown Time: @%
+				Projectile Speed: @%
+				Railgun Alt Fire Energy Charge Rate: @%
+				Ultimate Generation - Combat Overclock: @%
+				Ultimate Generation - Passive Overclock: @%
+				Ultimate Generation Overclock: &%
+			}
+
+			Soldier: 76
+			{
+				Ammunition Clip Size Scalar: *%
+				Biotic Field Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Helix Rockets Cooldown Time: @%
+				Helix Rockets Knockback Scalar: ?%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Tactical Visor: @%
+				Ultimate Generation - Passive Tactical Visor: @%
+				Ultimate Generation Tactical Visor: &%
+			}
+
+			Sombra
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Hack Cooldown Time: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Stealth Cooldown Time: @%
+				Translocator Cooldown Time: @%
+				Ultimate Generation - Combat EMP: @%
+				Ultimate Generation - Passive EMP: @%
+				Ultimate Generation EMP: &%
+			}
+
+			Symmetra
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Sentry Turret Cooldown Time: @%
+				Teleporter Cooldown Time: @%
+				Ultimate Generation - Combat Photon Barrier: @%
+				Ultimate Generation - Passive Photon Barrier: @%
+				Ultimate Generation Photon Barrier: &%
+			}
+
+			Torbjörn
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Deploy Turret Cooldown Time: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Overload Cooldown Time: @%
+				Overload Duration Scalar: @%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Molten Core: @%
+				Ultimate Generation - Passive Molten Core: @%
+				Ultimate Generation Molten Core: &%
+			}
+
+			Tracer
+			{
+				Ammunition Clip Size Scalar: *%
+				Blink Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Recall Cooldown Time: @%
+				Ultimate Generation - Combat Pulse Bomb: @%
+				Ultimate Generation - Passive Pulse Bomb: @%
+				Ultimate Generation Pulse Bomb: &%
+			}
+
+			Widowmaker
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Grappling Hook Cooldown Time: @%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Infra-Sight: @%
+				Ultimate Generation - Passive Infra-Sight: @%
+				Ultimate Generation Infra-Sight: &%
+				Venom Mine Cooldown Time: @%
+			}
+
+			Winston
+			{
+				Ammunition Clip Size Scalar: *%
+				Barrier Projector Cooldown Time: @%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jump Pack Acceleration Scalar: |%
+				Jump Pack Cooldown Time: @%
+				Jump Pack Knockback Scalar: ?%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Primal Rage Melee Knockback Scalar: |%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Primal Rage: @%
+				Ultimate Generation - Passive Primal Rage: @%
+				Ultimate Generation Primal Rage: &%
+			}
+
+			Wrecking Ball
+			{
+				Adaptive Shield Cooldown Time: @%
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Grappling Claw Cooldown Time: @%
+				Grappling Claw Knockback Scalar: ?%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Minefield Knockback Scalar: ?%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Piledriver Cooldown Time: @%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Duration: *%
+				Ultimate Generation - Combat Minefield: @%
+				Ultimate Generation - Passive Minefield: @%
+				Ultimate Generation Minefield: &%
+			}
+
+			Zarya
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Particle Barrier Cooldown Time: @%
+				Particle Cannon Secondary Knockback Scalar: ?%
+				Projected Barrier Cooldown Time: @%
+				Projectile Gravity: @%
+				Projectile Speed: @%
+				Ultimate Generation - Combat Graviton Surge: @%
+				Ultimate Generation - Passive Graviton Surge: @%
+				Ultimate Generation Graviton Surge: &%
+			}
+
+			Zenyatta
+			{
+				Ammunition Clip Size Scalar: *%
+				Damage Dealt: &%
+				Damage Received: &%
+				Healing Dealt: &%
+				Healing Received: &%
+				Health: &%
+				Jump Vertical Speed: `%
+				Movement Gravity: $%
+				Movement Speed: !%
+				Projectile Speed: @%
+				Ultimate Generation - Combat Transcendence: @%
+				Ultimate Generation - Passive Transcendence: @%
+				Ultimate Generation Transcendence: &%
+			}
+		}
+	}
+}
