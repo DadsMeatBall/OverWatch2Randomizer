@@ -2,10 +2,12 @@ settings
 {
 	modes
 	{
-			disabled Control
+		disabled Control
 		{
 			Limit Roles: 1 Tank 2 Offense 2 Support
 		}
+
+		Deathmatch
 
 		disabled Escort
 		{
@@ -21,8 +23,6 @@ settings
 		{
 			Limit Roles: 1 Tank 2 Offense 2 Support
 		}
-
-		Skirmish
 	}
 
 	heroes
